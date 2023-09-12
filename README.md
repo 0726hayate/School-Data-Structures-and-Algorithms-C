@@ -12,9 +12,9 @@ This C program demonstrates the Extended Euclidean Algorithm, a mathematical alg
 This C program calculates the n-th Fibonacci number using three different methods and compares their running times. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones (e.g., 0, 1, 1, 2, 3, 5, 8, ...).
 + Recursive Algorithm:
 The program implements the Fibonacci sequence recursively using the formula Fn = Fn-1 + Fn-2. It includes a base case for F0 and F1. This method demonstrates a simple recursive approach to calculate Fibonacci numbers.
-+ Iterative Algorithm
++ Iterative Algorithm:
 The program uses an iterative approach to compute the n-th Fibonacci number. It uses a loop to calculate each Fibonacci number iteratively from the beginning of the sequence. This method is more efficient than the recursive approach.
-+ Dynamic Programming
++ Dynamic Programming:
 The program employs dynamic programming to calculate Fibonacci numbers. It uses an array `knownF` to store previously computed Fibonacci numbers and avoids redundant calculations. This method is the most efficient among the three.
 ## HashTable
 This C program implements a hash table with two probing techniques: linear probing and quadratic probing. It calculates the average number of probes required to insert random keys into the hash table and compares the performance of the two probing methods. The program allows you to specify the load factor, which determines the size of the hash table. It calculates the prime number closest to the desired size for the hash table to optimize performance. Random keys are generated for insertion into the hash table using the `rand()` function. Additionally, the program includes functions to check if a given positive integer is prime and find the next prime after a given number.
