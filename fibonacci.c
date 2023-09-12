@@ -65,7 +65,7 @@ unsigned long fibo2(unsigned int n) {
     }
 }
 
-//Part 3: O(n) time
+//Part 3: Dynamic programming for computing the n-th Fibonacci number
 unsigned long fibo3(int n) {
 
     if (knownF[n] != 0) return knownF[n];
@@ -166,7 +166,7 @@ int main(){
     } else if (quickest == 2) {
         printf("The function with the shortest running time is the iterative function (part2)\n");
     } else {
-        printf("The function with the shortest running time is the one with O(n) time\n");
+        printf("The function with the shortest running time is the one using dynamic programming\n");
     }
 
     return 0;
